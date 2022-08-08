@@ -7,8 +7,8 @@ public class AddTwoNum {
         //if a carry needed
         boolean carry = false;
         //sum of two node
-        int sum = 0;
-        int iniSum = 0;
+        int sum ;
+        int iniSum ;
         //irritated pointer
         ListNode node = sentinal;
 
@@ -26,14 +26,8 @@ public class AddTwoNum {
             if (l1 != null) {
                 l1 = l1.next;
             }
-            else{
-                l1 =null;
-            }
             if (l2 != null) {
                 l2 = l2.next;
-            }
-            else{
-                l2 = null;
             }
         }
 
