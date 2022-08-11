@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="627650f0-4dac-4a39-809b-7a214e56a0ba" name="Changes" comment="leetcode_2">
-      <change afterPath="$PROJECT_DIR$/src/IsIsomorphic/isIsomorphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="627650f0-4dac-4a39-809b-7a214e56a0ba" name="Changes" comment="leetcode_4 Isomorphic">
+      <change afterPath="$PROJECT_DIR$/src/isSubsequence/isSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lec2.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lec2.1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddTwoNum/AddTwoNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddTwoNum/AddTwoNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,7 +70,7 @@
       <recent name="IsIsomorphic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.isIsomorphic.isIsomorphicMethodTest">
+  <component name="RunManager" selected="JUnit.isSubsequence.isSubsequenceTest">
     <configuration name="AddTwoNumIntLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddTwoNum.AddTwoNumIntLauncher" />
       <module name="lec2.1" />
@@ -84,13 +80,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="lec2.1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,13 +132,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="isSubsequence.isSubsequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lec2.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="isSubsequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="isSubsequence" />
+      <option name="MAIN_CLASS_NAME" value="isSubsequence.isSubsequence" />
+      <option name="METHOD_NAME" value="isSubsequenceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.isSubsequence.isSubsequenceTest" />
         <item itemvalue="JUnit.isIsomorphic.isIsomorphicMethodTest" />
         <item itemvalue="JUnit.isIsomorphic.isIsomorphic2Test" />
         <item itemvalue="JUnit.isIsomorphic.isIsomorphicMethod" />
         <item itemvalue="Application.AddTwoNumIntLauncher" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659985694307</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="leetcode_4 Isomorphic">
+      <created>1660189015747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660189015747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,15 +211,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leetcode_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode_2" />
+    <MESSAGE value="leetcode_4 Isomorphic" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode_4 Isomorphic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/IsIsomorphic/isIsomorphic.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/isSubsequence/isSubsequence.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
