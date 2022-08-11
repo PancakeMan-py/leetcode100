@@ -2,15 +2,15 @@ package AddTwoNum;
 
 public class AddTwoNum {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        //sentinal node
-        ListNode sentinal = new ListNode(-1);
+        //sentinel node
+        ListNode sentinel = new ListNode(-1);
         //if a carry needed
         boolean carry = false;
         //sum of two node
         int sum ;
         int iniSum ;
         //irritated pointer
-        ListNode node = sentinal;
+        ListNode node = sentinel;
 
         while (l1 != null || l2 != null) {
             int val1 = l1 == null ? 0 : l1.val;
@@ -20,6 +20,7 @@ public class AddTwoNum {
             sum = iniSum % 10;
             int finalSum = sum;
             carry = iniSum >= 10;
+            //sentinel node changed from -1,null to -1,next
             node.next = new ListNode(finalSum);
             node = node.next;
 
@@ -35,6 +36,6 @@ public class AddTwoNum {
             node.next = new ListNode(1);
         }
 
-        return sentinal.next;
+        return sentinel.next;
     }
 }
