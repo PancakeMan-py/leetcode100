@@ -1,9 +1,13 @@
 package LongestSubstringWithoutRepeatingCharacters;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static org.junit.Assert.assertEquals;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
@@ -18,5 +22,12 @@ public class LongestSubstringWithoutRepeatingCharacters {
             map.put(s.charAt(end), end + 1);
         }
         return ans;
+    }
+
+    @Test
+    void testLengthOfLongestSubstring(){
+        String s = "abcabcbb";
+        int result = lengthOfLongestSubstring(s);
+        assertEquals(3,result);
     }
 }
