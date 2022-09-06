@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="627650f0-4dac-4a39-809b-7a214e56a0ba" name="Changes" comment="leetcode_6 binary search">
-      <change afterPath="$PROJECT_DIR$/src/RemoveElement/RemoveElement.java" afterDir="false" />
+    <list default="true" id="627650f0-4dac-4a39-809b-7a214e56a0ba" name="Changes" comment="leetcode_6 List">
+      <change afterPath="$PROJECT_DIR$/src/GenerateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinSubArrayLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveLinkedListElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SuqareSortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwapPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySetLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestSort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +83,7 @@
       <recent name="IsIsomorphic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveElement.removeElementTest">
+  <component name="RunManager" selected="JUnit.MyAdd.testMyAdd">
     <configuration name="BinarySearch.bruteForceSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lec2.1" />
       <extension name="coverage">
@@ -87,17 +100,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharacters.testLengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyAdd.testMyAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lec2.1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LongestSubstringWithoutRepeatingCharacters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LongestSubstringWithoutRepeatingCharacters" />
-      <option name="MAIN_CLASS_NAME" value="LongestSubstringWithoutRepeatingCharacters.LongestSubstringWithoutRepeatingCharacters" />
-      <option name="METHOD_NAME" value="testLengthOfLongestSubstring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyAdd" />
+      <option name="METHOD_NAME" value="testMyAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,7 +114,7 @@
       <module name="lec2.1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RemoveElement.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,17 +126,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isSubsequence.isSubsequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveLinkedListElements.testRemoveElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lec2.1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="isSubsequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="isSubsequence" />
-      <option name="MAIN_CLASS_NAME" value="isSubsequence.isSubsequence" />
-      <option name="METHOD_NAME" value="isSubsequenceTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RemoveLinkedListElements" />
+      <option name="METHOD_NAME" value="testRemoveElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyAdd.testMyAdd" />
+        <item itemvalue="JUnit.RemoveLinkedListElements.testRemoveElements" />
         <item itemvalue="JUnit.RemoveElement.removeElementTest" />
         <item itemvalue="JUnit.BinarySearch.bruteForceSearchTest" />
         <item itemvalue="JUnit.longestPalindrome.isPalindromicTest" />
-        <item itemvalue="JUnit.LongestSubstringWithoutRepeatingCharacters.testLengthOfLongestSubstring" />
-        <item itemvalue="JUnit.isSubsequence.isSubsequenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661967795970</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="leetcode_6 binary search">
+      <created>1661980781456</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661980781456</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +254,8 @@
     <MESSAGE value="leetcode_5 isSubsequence ini Hashmap method wrong" />
     <MESSAGE value="leetcode_5 isSubsequence DP" />
     <MESSAGE value="leetcode_6 binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode_6 binary search" />
+    <MESSAGE value="leetcode_6 List" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode_6 List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
