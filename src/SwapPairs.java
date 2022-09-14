@@ -1,26 +1,26 @@
 public class SwapPairs {
     public ListNode swapPairs(ListNode head) {
+        //connect dummy node and head.
+        ListNode sentinal = new ListNode(-1);
+        ListNode prev = sentinal;
+        sentinal.next = head;
 
-        if(head == null && head.next == null){
-            return head;
+
+        while(head != null){
+            //connect sentinal and second node
+            prev.next = head.next;
+
+            //connect the second node to first node
+            head.next.next = head;
+
+            //connect the first node to third node
+            head.next = head.next.next;
+
+            //next node
+            head = head.next;
+            prev = prev.next;
         }
 
-        int index = 1;
-        ListNode pre = head;
-        ListNode cur = pre.next;
-
-        while(cur.next != null){
-            if(index % 2 == 1){
-                cur.next = pre;
-                cur = pre.next.next;
-                pre = pre.next;
-            }else{
-                cur = pre.next.next;
-                pre = pre.next;
-            }
-
-            index++;
-        }
-        return pre;
+        return sentinal.next;
     }
 }

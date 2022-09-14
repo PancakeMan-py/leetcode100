@@ -1,3 +1,6 @@
+import org.junit.jupiter.api.Test;
+
+import static org.junit.Assert.assertEquals;
 public class ReverseList {
     public ListNode reverseList(ListNode head) {
         ListNode pre = head;
