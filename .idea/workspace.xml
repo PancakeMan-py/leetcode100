@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="627650f0-4dac-4a39-809b-7a214e56a0ba" name="Changes" comment="leetcode_41 List">
-      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+    <list default="true" id="627650f0-4dac-4a39-809b-7a214e56a0ba" name="Changes" comment="leetcode_52 my_first hard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -239,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665272613770</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="leetcode_52 my_first hard">
+      <created>1665287769614</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665287769614</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +267,8 @@
     <MESSAGE value="leetcode_6 binary search" />
     <MESSAGE value="leetcode_6 List" />
     <MESSAGE value="leetcode_41 List" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode_41 List" />
+    <MESSAGE value="leetcode_52 my_first hard" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode_52 my_first hard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

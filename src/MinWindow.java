@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class Solution {
+class MinWindow {
     public String minWindow( String s, String t ) {
         //return value
         String minSubstring = "";
