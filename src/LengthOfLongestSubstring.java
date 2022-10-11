@@ -7,7 +7,7 @@ import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
-public class LongestSubstringWithoutRepeatingCharacters {
+public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length(), ans = 0;
         Map<Character, Integer> map = new HashMap<>();
