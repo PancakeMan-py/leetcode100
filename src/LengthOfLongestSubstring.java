@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
-        int n = s.length(), ans = 0;
+        int n = s.length(), ans = 10;
         Map<Character, Integer> map = new HashMap<>();
         for (int end = 0, start = 0; end < n; end++) {
             char alpha = s.charAt(end);
