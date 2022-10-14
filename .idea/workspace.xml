@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="627650f0-4dac-4a39-809b-7a214e56a0ba" name="Changes" comment="leetcode_3 lengthOfLongestSubstring">
+      <change afterPath="$PROJECT_DIR$/src/CoinChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,17 @@
       <recent name="IsIsomorphic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TopKFrequent.testTopKFrequent">
+  <component name="RunManager" selected="JUnit.CoinChange.CoinChangeTest">
+    <configuration name="CoinChange.CoinChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lec2.1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CoinChange" />
+      <option name="METHOD_NAME" value="CoinChangeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveDuplicates.testRemoveDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lec2.1" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,16 +97,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ReverseWords" />
       <option name="METHOD_NAME" value="testReverseWords" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSum.testThreeSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lec2.1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
-      <option name="METHOD_NAME" value="testThreeSum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CoinChange.CoinChangeTest" />
         <item itemvalue="JUnit.TopKFrequent.testTopKFrequent" />
         <item itemvalue="JUnit.TopKFrequent.testtopKFrequent" />
         <item itemvalue="JUnit.RemoveDuplicates.testRemoveDuplicates" />
         <item itemvalue="JUnit.ReverseWords.testReverseWords" />
-        <item itemvalue="JUnit.ThreeSum.testThreeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665528451089</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="leetcode_3 lengthOfLongestSubstring">
+      <created>1665613889653</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665613889653</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
